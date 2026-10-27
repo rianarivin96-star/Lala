@@ -20,12 +20,7 @@ jobs:
           java-version: '17'
 
       - name: Configurar Android SDK
-        uses: android-actions/setup-android@v3
-        with:
-          packages: |
-            platform-tools
-            platforms;android-34
-            build-tools;34.0.0
+        uses: android-actions/setup-android@v4
 
       - name: Dar permissão de execução ao gradlew
         run: chmod +x ./gradlew
