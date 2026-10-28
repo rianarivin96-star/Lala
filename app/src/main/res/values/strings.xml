@@ -1,5 +1,6 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Mouse to Touch</string>
-    <string name="accessibility_service_description">Permite que o Mouse to Touch traduza o movimento do mouse em toques sintéticos dentro de jogos, contornando o limite de borda do cursor nativo do Android.</string>
+    <string name="accessibility_service_description">Allows Mouse to Touch to translate mouse movements into simulated touch gestures in games, bypassing the Android native cursor edge limit.</string>
 </resources>
